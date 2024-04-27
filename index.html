@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu casa lista</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--Aqui se contiene todo lo que tiene que ver con la barra superior (encabezado)-->
+    <header>
+        <div class="logo">
+            <img src="imagenes/pagina_index/Logo_tu_casa_lista.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">INICIO</a></li>
+                    <li><a href="#importante">NOSOTROS</a></li>
+                    <li><a href="modelos.html" target="_blank">MODELOS</a></li>
+                    <li><a href="contacto.html" target="_blank">CONTACTO</a></li>
+                    <li><a href="ubicacion.html" target="_blank">UBICACION</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cart">
+            <img src="imagenes/pagina_index/shopping_cart.png" alt="Carrito de compras">
+        </div>
+    </header>
+
+    <!--A continuacion se contiene todo lo relacionado al carrucel de imagenes abajo del encabezado-->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="imagenes/pagina_index/Casa_prefabricada_carrucel_1.jpg" class="d-block w-100" alt="imagen uno">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="imagenes/pagina_index/Casa_prefabricada_carrucel_2.jpg" class="d-block w-100" alt="imagen dos">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="imagenes/pagina_index/Casa_prefabricada_carrucel_3.jpeg" class="d-block w-100" alt="imagen tres">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--A continuacion todo lo que tiene que ver con el cuadro abajo del carrucel-->
+    <section id="importante">
+        <div class="contenido-cuadro">
+            <div class="texto-cuadro">
+                <h1>La innovacion a llegado</h1>
+                <p>
+                    "¡Bienvenidos al futuro de la vivienda! Descubre la revolución de las casas prefabricadas:
+                    <br>
+                    rapidez, eficiencia y personalización se unen para crear tu hogar ideal en tiempo récord.
+                    <br>
+                    ¡Construye tus sueños con nosotros hoy mismo!"
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--A continuacion se habla sobre los modelos prefabricados para comprar-->
+    <div class="container">
+        <h2><b>Modelos Prefabricados para Comprar</b></h2>
+        <div class="modelos-container">
+            <div class="modelo">
+                <img src="imagenes/pagina_index/modelo-casas-madera-1.jpg" alt="Modelo Básico">
+                <h3>Modelo Básico</h3>
+                <p>Desde $2.500.000</p>
+                <p>Kit para hermosa casa con estilo mediterráneo, de tres dormitorios y gran precio, con 54 m2 para su hogar.</p>
+            </div>
+            <div class="modelo">
+                <img src="imagenes/pagina_index/modelo-casas-madera-2.jpg" alt="Modelo Normal">
+                <h3>Modelo Normal</h3>
+                <p>Desde $4.200.000</p>
+                <p>kit de hermosa y amplia casa de 4 dormitorios, con los espacios que tu familia necesita en increíbles 72 m2.</p>
+            </div>
+            <div class="modelo">
+                <img src="imagenes/pagina_index/modelo-casas-madera-3.jpg" alt="Modelo de Lujo">
+                <h3>Modelo de Lujo</h3>
+                <p>Desde $5.000.000</p>
+                <p>KIT de amplia y cómoda casa familiar de 144 m2, con todos los espacios que siempre soñaste para tu casa.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--A continuacion el html de la parte de "Ventajas de las Construcción Modular o Prefabricada" -->
+    <div class="center-container">
+        <div class="ventajas-container">
+            <div class="ventajas-content">
+                <h2>Ventajas de la Construcción Modular o Prefabricada</h2>
+                <p>Características Viviendas Prefabricadas:</p>
+                <ul>
+                    <li>Tiempos de construcción y diseño mucho menores</li>
+                    <li>Flexibilidad en poder utilizar distintos terrenos</li>
+                    <li>Precios muy inferiores a las construcciones tradicionales</li>
+                    <li>Alta calidad al fabricarse parcial o totalmente en talleres</li>
+                    <li>Múltiples diseños y fácil personalización</li>
+                </ul>
+                <div class="image-container">
+                    <img src="imagenes/pagina_index/casas-en-santiago.jpg" alt="Imagen de una casa en santiago">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--A continuacion la parte de los comentarios-->
+    <div class="comentarios-container">
+        <h2>Comentarios de Clientes</h2>
+        <div class="comentario">
+            <div class="d-flex align-items-center">
+                <div class="imagen-container mr-3">
+                    <div class="imagen-usuario rounded-circle" style="width: 150px; height: 150px; background-image: url('imagenes/pagina_index/persona_comentarios_hombre.jpg'); background-size: cover; background-position: center;"></div>
+                </div>
+                <div class="contenido">
+                    <div class="nombre">Juan Pérez</div>
+                    <p>¡Excelente servicio! Compré una casa prefabricada y quedé muy satisfecho con la calidad y el proceso de compra.</p>
+                </div>
+            </div>
+        </div>
+        <div class="comentario">
+            <div class="d-flex align-items-center">
+                <div class="imagen-container mr-3">
+                    <div class="imagen-usuario rounded-circle" style="width: 150px; height: 150px; background-image: url('imagenes/pagina_index/persona_comentarios_mujer.jpg'); background-size: cover; background-position: center;"></div>
+                </div>
+                <div class="contenido">
+                    <div class="nombre">María López</div>
+                    <p>Estoy muy feliz con mi nueva casa prefabricada. Fue fácil de instalar y se ve increíble. ¡Gracias!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--A continuacion la parte del boton del formulario-->
+    <div class="registro-button">
+        <h2>Para continuar con el proceso de compra,
+            <br>Por favor llene el siguiente formulario de registro
+        </h2>
+        <form action="index.html" method="post">
+            <h1>Registrarse</h1>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="user_nombre">
+            <label for="age">Edad:</label>
+            <input type="number" id="age" name="user_age">
+            <label for="gender">Género:</label>
+            <select id="gender" name="user_gender">
+                <option value="Femenino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="No binarie">No binarie</option>
+            </select>
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" name="user_address">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_email">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="user_password">
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+
+    <!--A continuacion la parte del pie de pagina (footer)-->
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="imagenes/pagina_index/Logo_tu_casa_lista.png" alt="Logo">
+            </div>
+            <div class="enlaces">
+                <h3>TU CASA LISTA</h3>
+                <ul>
+                    <li>Nuestros puntos de venta</li>
+                    <li>Políticas de privacidad</li>
+                    <li>Contacto comercial</li>
+                    <li>Preguntas frecuentes</li>
+                </ul>
+            </div>
+            <div class="imagen-servipag">
+                <img src="imagenes/pagina_index/ServiPag.png" alt="ServiPag">
+            </div>
+        </div>
+    </footer>
+
+    <div class="diagonal"></div>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
